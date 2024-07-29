@@ -22777,7 +22777,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 406581207}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1929598989}
+        m_TargetAssemblyTypeName: ButtonCanvasManager, Assembly-CSharp
+        m_MethodName: LoadNewGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &406581207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23407,7 +23419,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.78234, y: 14.952, z: -10}
+  m_LocalPosition: {x: 102.84509, y: 13.033839, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23706,7 +23718,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 622681594}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1929598989}
+        m_TargetAssemblyTypeName: ButtonCanvasManager, Assembly-CSharp
+        m_MethodName: LoadMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &622681594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30661,7 +30685,7 @@ Transform:
   m_GameObject: {fileID: 1738152095}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.482342, y: 1.1480007, z: 0}
+  m_LocalPosition: {x: 13.724907, y: -2.1238394, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39084,7 +39108,7 @@ Transform:
   m_GameObject: {fileID: 2047571097}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.3, y: 16.1, z: 0}
+  m_LocalPosition: {x: 116.57, y: 10.91, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39150,7 +39174,7 @@ MonoBehaviour:
   speed: 5
   jumpForce: 15
   trampoline: {fileID: 1926509469}
-  jumpForceByTrampoline: 5
+  jumpForceByTrampoline: 1.2
   freezeDuration: 2
   counterFreeze: 0
 --- !u!70 &2047571109
@@ -39162,7 +39186,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 2047571097}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 570b1ba37de31624784a8b127623e910, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -39204,7 +39228,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 570b1ba37de31624784a8b127623e910, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
